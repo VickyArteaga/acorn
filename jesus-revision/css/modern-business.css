@@ -1,0 +1,382 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+ul {padding-left: 0;}
+@media (min-width: 992px) {
+ /* body {
+    padding-top: 56px;*/
+  }
+}
+
+/* para llamar a la font playfair display en los h1 */
+
+@font-face {
+  font-family: 'Playfair Display';
+  src:url('../font/Playfair_Display/PlayfairDisplay.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+/*roboto*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700');
+
+body {
+      color:;
+}
+
+/* Header styles */
+/*NAV*/
+.navbar-nav {
+  border-left: 1px solid #dee2e6 !important;
+  border-right: 1px solid #dee2e6 !important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+    
+/* estilo letra navbar */
+.navbar{
+  font-family:'300', sans-serif;
+  font-size: 12px;
+ background: none !important;
+ padding-top: 2rem;
+}
+
+/*color de los links*/
+.nav-link {
+    color: white!important;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Roboto';
+    letter-spacing: .7px;
+}
+
+/* .navbar {
+  background: transparent !important;
+} */
+
+/* .scrolling-navbar {
+  -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+  transition: background .5s ease-in-out, padding .5s ease-in-out;
+} */
+
+
+
+
+/* estilo de letra h2 | roboto estaba incluida en la plantilla.... nop tuve que descargarla */
+h2{
+  font-family: 'PlayfairDisplay', serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+p{
+  font-family:'400', sans-serif;
+  font-size: 18px;
+}
+
+
+/*texto al lado de los iconos*/
+.textIcon{
+    font-family: '400', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    max-width: 45%;
+    display: inline-block;
+    padding-left: 12px;
+}
+
+/*color de los parrafos de los bloques morados*/
+.text-secondary {
+    color: #CEBD97 !important;
+}
+
+
+/* .carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+/*.portfolio-item {
+  margin-bottom: 30px;
+}*/
+
+html, body, #heroimage{
+  width:100%;
+  height:100%;
+  min-height: 900px
+}
+
+/*HEROIMAGE POR PAGINA*/
+
+ #heroimage.home{   
+  /*background:url('http://placehold.it/1920x1080&text=Hero+Image') center center;*/
+  /* background:url('https://checkandbalancefirm.com/wp-content/uploads/sites/4581/2017/06/background-dark-1.jpg')center center; */
+  background:url('../assets/imageHomepage.jpg')center center;
+  background-size:cover;
+}
+
+ #heroimage.account{   
+  /*background:url('http://placehold.it/1920x1080&text=Hero+Image') center center;*/
+  /* background:url('https://checkandbalancefirm.com/wp-content/uploads/sites/4581/2017/06/background-dark-1.jpg')center center; */
+  background:url('../assets/account.jpg')center center;
+  background-size:cover;
+}
+
+ #heroimage.payroll{   
+  /*background:url('http://placehold.it/1920x1080&text=Hero+Image') center center;*/
+  /* background:url('https://checkandbalancefirm.com/wp-content/uploads/sites/4581/2017/06/background-dark-1.jpg')center center; */
+  background:url('../assets/payroll.jpg')center center;
+  background-size:cover;
+}
+
+ #heroimage.specialist{   
+  /*background:url('http://placehold.it/1920x1080&text=Hero+Image') center center;*/
+  /* background:url('https://checkandbalancefirm.com/wp-content/uploads/sites/4581/2017/06/background-dark-1.jpg')center center; */
+  background:url('../assets/specialist.jpg')center center;
+  background-size:cover;
+}
+
+ #heroimage.stocktaking{   
+  /*background:url('http://placehold.it/1920x1080&text=Hero+Image') center center;*/
+  /* background:url('https://checkandbalancefirm.com/wp-content/uploads/sites/4581/2017/06/background-dark-1.jpg')center center; */
+  background:url('../assets/stocktaking.jpg')center center;
+  background-size:cover;
+}
+
+
+ #heroimage.technology{   
+  /*background:url('http://placehold.it/1920x1080&text=Hero+Image') center center;*/
+   /*background:url('https://checkandbalancefirm.com/wp-content/uploads/sites/4581/2017/06/background-dark-1.jpg')center center; */
+  background:url('../assets/technology.jpg')center center;
+  background-size:cover;
+}
+
+
+/*color y margen del parrafo dentro de la heroimage*/
+ #herotexto{
+  margin-top: 9%;
+  color: #CEBD97;
+}
+
+/*posicion y dibujar línea en el blockquote*/
+.blockquote-container {
+  margin-top: -5%;
+  background: rgba(0,0,0,.6);
+  padding-top: 1.5rem;
+  padding-bottom: 0rem;
+  margin-bottom: 0;
+ 
+}
+
+.blockquote-container p {
+  border-left: 0.2em solid  #CEBD97; 
+  padding: 1rem;
+  font-size: 20px;
+  letter-spacing: .5px;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+.blockquote-container p span{
+  color: #CEBD97;
+  font-weight: 800;
+}
+
+/*caracteristicas del parrafo de la heroimage*/
+#heroparrafo {
+    font-family: '400', sans-serif; 
+    font-size: 18px;
+    max-width: 480px;
+}
+
+/* HEADING H1 ALL PAGES */
+h1{
+  font-family: 'PlayfairDisplay', serif;
+  font-weight:bold;
+  font-size:82px;
+}
+
+.tagline {
+  font-weight: 100;
+  padding-bottom: 1rem;
+  position: relative;
+}
+.tagline:before {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background: #fff;
+  left: -65px;
+  position: absolute;
+  top: 1rem;
+
+}
+
+.move-left {
+  padding-left: 3.2rem;
+}
+
+
+/*FUENTE DE LOS CLAIMS (PARRAFOS DEL HEROIMAGE)*/
+/*#heroparrafo{
+  font-family: '400', sans-serif;
+  font-size: 18px;  
+}*/ 
+
+
+
+
+/*clase del boton*/
+.btn {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  background: #CEBD97;
+  font-size: large;
+  border: 0px;
+  border-radius: 0rem;
+}
+
+
+/*margen del boton de la home*/
+
+
+
+
+/*fondo de los parrafos arriba de los servicios*/
+/*#services-parrafo{
+  background: #F7F7F7;
+  padding-top: 10%; 
+}*/
+
+/*fondo de donde estan los iconos ESTO SI SE USO ES EL BACKGROUND*/
+.services  {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background: #F7F7F7;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+
+/*AL FINAL NO SE USO LOS ICONOS SON IMAGENES*/
+/*circulo que rodea el icono 75% para que sea redondo*/
+/*.icon-circle {
+  border-radius: 75%;   
+  margin: 0.15em;       
+  font-size: 3em;
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(95, 78, 78);
+  padding: 0.75em 0.75em;
+}*/
+
+/*.bloque {
+  background-color: #DCDCDC;
+  /*background-color: #F0FFFF; 
+}*/
+
+
+/*color morado de los bloques de texto*/
+.color-bloque {
+  background: #484251;
+}
+
+/*margenes de los parrafos que están dentro de los bloques morados*/
+.color-bloque p {
+ padding-left: 3rem;
+ max-width: 65%;
+}
+
+/*es la linea recta que aparece al principio de los texto*/
+.line-asset::before {
+  content: "";
+  width: 50px;
+  background:  #CEBD97;
+  border-top: 1px beige solid;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+/*clase para crear saltos de linea en el texto sin br*/
+.line-break::before {
+  content: '\A';
+  white-space: pre;
+}
+
+/*formulario, color del texto del label*/
+label{
+  color: #CEBD97;
+}
+
+/*formulario color texto de ayuda*/
+.help-block{
+  color: #CEBD97;
+  
+}
+
+/*eliminar margen y padding en el texto de ayuda en phone, email y your text*/
+.help-block ul{
+  padding: 0;
+  margin: 0;
+} 
+
+
+/*eliminar margen y padding en el texto de ayuda en firts name y last name*/
+/*no funciona*/
+/*p .help-block ul li{
+  padding: 0 !important;
+  margin: 0  !important;
+}*/
+
+
+/*texto de ayuda del formulario dejar las lista sin punto*/
+.help-block ul li{
+  list-style: none; /* Remove list bullets */
+}
+
+/*borde de los input del formulario dejar los input cuadrados*/
+.form-control {
+  border-radius: 0;
+}
+
+
+/*color de fondo del footer*/
+.page-footer{
+  background: #484251;
+}
+.footer-col {
+  margin-bottom: 2rem;
+}
+/* estilo de letra footer */
+.page-footer .word {
+  font-family: '400', sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+  color: #CEBD97;
+}
+
+/*eliminar estilo de la lista del footer*/
+.listFooter{
+  list-style-type: none;
+  text-align: left;
+}
+
+/*alinear al centro los iconos con el texto*/
+img.alineadoTextoImagenCentro{
+  vertical-align: middle;
+  /* Ojo vertical-align: text-middle no existe*/
+}
+
+/*eliminar linea de abajo a los links*/
+a.decoration{
+ text-decoration: none;
+ color: white;
+}

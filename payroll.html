@@ -8,6 +8,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <link rel="shortcut icon" type="image" href="assets/fabicon.png"/>
+    
+
     <title>Acorn Consultants</title>
 
     <!-- Bootstrap core CSS -->
@@ -15,11 +18,16 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/modern-responsive.css" rel="stylesheet">
+
+
+    <!-- iconos momentaneos -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
 
   </head>
 
   <body>
-
 <header>
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -34,134 +42,234 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item border-left">
-            <!--boder left pinta raya vertical-->
-            <a class="nav-link" href="accounts.html">Accounts</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="payroll.html">Payroll</a>
+          <li class="nav-item">
+            <a class="nav-link" href="accounts.html"><span class="text-uppercase">Accounts</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="specialist.html">Specialist</a>
+            <a class="nav-link active" href="payroll.html"><span class="text-uppercase">Payroll</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="stocktaking.html">Stocktaking</a>
+            <a class="nav-link" href="specialist.html"><span class="text-uppercase">Specialist</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="technology.html">Technology</a>
+            <a class="nav-link" href="stocktaking.html"><span class="text-uppercase">Stocktaking</span></a>
           </li>
-          <li class="nav-item border-right">
-            <a class="nav-link" href="contact.html">Contact us</a>
+          <li class="nav-item">
+            <a class="nav-link" href="technology.html"><span class="text-uppercase">Technology</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><span class="text-uppercase">Contact us</span></a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </header>
-<!--la heroimage-->
-<div id="heroimage" class="masthead">
+
+
+<!-- heroimage-->
+<div class="masthead payroll" id="heroimage">
   <div class="container p-5 align-items-left">
-    <div id="herotexto" class="mx-auto p-5 text-left">
-      <ul class="list-unstyled">
-        <li>
-          <h5 class="text-light mt-2  mb-3">_____ Creating bespoke solutions for your bussines</h5>
-        </li>
-        <li>
-          <h1 class="text-light  ml-5 mt-2 mb-3 my-1 text-uppercase">
-            payroll <br> Consultants
-          </h1>
-        </li>
-        <li>
-          <p id="heroparrafo" class="text-light ml-5 mt-2  mb-3 my-1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            placerat orci maximus vitae. Aenean aliquam rhoncus lobortis.
-            urna. Nunc imperdiet nibh nec diam lobortis
-          </p>
-        </li>
-        <li>
-          <a class="btn btn-light ml-5 mt-2 mb-3 my-1" href="accounts.html" role="button">
-            Accounts
-          </a>
-        </li>
-      </ul>
-      <blockquote>
-        <p id="parrafblock" class="text-light">The creation of a thousand forests is in one acorn <br>
-          - Ralph Waldo Emerson</p>
-      </blockquote>
+    <div class="row">
+      <div id="herotexto" class="mx-auto p-5 text-left col-md-12">
+        <h1 class="text-light mt-2 mb-3 my-1 text-wrap">
+          <!-- la clase line-break la cree para lograr el salto de linea en el titulo -->
+          Payroll
+        </h1>
+        <p class=" text-light mt-2  mb-3 text-wrap tagline">
+          <!--  la clase line-asset la cree para pintar la linea que va fuera de los titulos  -->
+          Save time, and avoid missed deadlines.
+        </p>
+         <p id="heroparrafo" class="mt-2 mb-3 my-1 text-wrap move-left">
+          Managing payroll in house is not a straightforward task. Our team of experts is available to manage the day to day tasks, removing any anxiety of missing deadlines and associated fines.
+        </p>
+       
+      </div>
     </div>
   </div>
 </div>
+<!-- END HERO -->
 
-    <!-- Page Content -->
+
+
+
+<!-- Page Content -->
+<section class="addSquare">  
+<!-- div de los parrafos -->
+  <div class="container-fluid">
+<!-- parrafo 1 -->
+  <div class="row">
+    <div class=" col-md-10 color-bloque py-5 px-5"> 
+      <div class="py-5 contenido">
+        <h2 class="text-white text-wrap py-4">
+          <span class="line-asset">
+            Payroll made easy.
+          </span>
+        </h2>
+        <p class="ml-5 text-wrap text-secondary parraf-limit">
+         Running a payroll in house is becoming an increasingly complicated task. Not only it is time consuming, but employers are expected to cope with statutory sick pay, statutory maternity pay and student loan repayments. From April 2013 real time submissions are now required increasing the need for a well managed and efficient service.
+      </p>
+      </div>
+    </div>
+  </div>   
+<!-- parrafo 2 -->
+  <div class="row justify-content-end pb-5"> <!--el row cuadrado gris -  para que vaya a la derecha -->
+    <div class="col-md-10 color-bloque py-5 px-5 my-5"><!--la columana con su color -->
+      <div class="py-5 contenido"> <!-- envuelve h3 y a p my=margin top y botom -->
+        <h2 class="text-white text-wrap py-4 ">
+          <span class="line-asset">
+            A payroll service adapted to your needs.  
+          </span>
+        </h2>
+          <p class="ml-5 text-wrap text-secondary parraf-limit">
+             Acorn Payroll Services provide a payroll processing service to meet your needs, whether that be a weekly or monthly payroll. Utilising HMRC accredited software, we can act as your agent with the HMRC, saving you time and money.
+
+         </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section class="services mb-5"> 
     <div class="container">
-
-      <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Services
-        <small>Subheading</small>
-      </h1>
-
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Services</li>
-      </ol>
-
-      <!-- Image Header -->
-      <img class="img-fluid rounded mb-4" src="http://placehold.it/1200x300" alt="">
-
-      <!-- Marketing Icons Section -->
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
+        <div class="container clearfix text-center pb-5">
+          <p>Our payroll services start from as little as £35 per month.
+          The service includes:</p>
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
+    </div>  
+
+<!-- primera fila -->
+
+  <div class="container">
+    <div class="row icon-payroll">
+
+      <div class="col-lg-4 col-md-6 text-left ">
+        <div class="mx-auto">
+          <img class="alineadoTextoImagenCentro" src="assets/iconos-payroll/payslip.svg"/>
+          <!-- <h3 class="mb-3">Sturdy Templates</h3> -->
+          <span class="text-uppercase textIcon">Payslips for employees</span>
         </div>
       </div>
-      <!-- /.row -->
+
+      <div class="col-lg-4 col-md-6 text-left">
+        <div class="mx-auto">
+          <img class="alineadoTextoImagenCentro" src="assets/iconos-payroll/weekly.svg"/>
+          <!-- <h3 class="mb-3">ACCOUNT PREPARATION</h3> -->
+          <span class="text-uppercase textIcon">Weekly / Monthly payroll reports</span>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 text-left">
+        <div class="mx-auto">
+          <img class="alineadoTextoImagenCentro" src="assets/iconos-payroll/calculation.svg"/>
+          <!-- <h3 class="mb-3"></h3> -->
+          <span class="text-uppercase textIcon">Calculation of statutory sick, maternity and paternity pay</span>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 text-left">
+        <div class="mx-auto">
+          <img class="alineadoTextoImagenCentro" src="assets/iconos-payroll/all in year.svg"/>
+          <!-- <h3 class="mb-3">Sturdy Templates</h3> -->
+         <span class="text-uppercase textIcon">All in year online filing including P45 for employees leaving</span>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 text-left">
+        <div class="mx-auto">
+          <img class="alineadoTextoImagenCentro" src="assets/iconos-payroll/paye tax.svg"/>
+          <!-- <h3 class="mb-3">ACCOUNT PREPARATION</h3> -->
+           <span class="text-uppercase textIcon">Implementing PAYE tax code changes</span>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 text-left">
+        <div class="mx-auto">
+          <img class="alineadoTextoImagenCentro" src="assets/iconos-payroll/online filing.svg"/>
+          <!-- <h3 class="mb-3"></h3> -->
+          <span class="text-uppercase textIcon">Online filing of year end summaries (P35 & P60)</span>
+        </div>
+      </div>
 
     </div>
-    <!-- /.container -->
+  </div>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+
+</section>
+<!-- END SERVICES -->
+
+
+
+<!-- fin Content -->     
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small pt-4 px-5">
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left text-light">
+       
+        <div class="row ">
+         
+          <div class="col-md-4 footer-col">
+            
+            <p class="word">
+              Acorn Consultants<br>
+              Moor View<br>
+              23 Paradise Park<br>
+              Whitstone<br>
+              Cornwall<br>
+              EX22 6TQ
+            </p>
+          </div>
+          <!-- Grid column -->
+          <!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
+          <!-- Grid column -->
+          <div class="col-md-1"></div>
+          <div class="col-md-5  footer-col">
+            <!-- Content -->   
+            <ul>
+              <li class="listFooter pl-2">              
+                <a href="tel:07525917319" class="decoration"><img class="" src="assets/mobile-footer.svg"/> 
+                <span class="pl-2 word">
+                  07525 917319
+                </span>
+                </a>             
+              </li>
+              <li class="listFooter pt-4 footer-col">             
+                <a href="mailto:E.info@acornconsultants.co.uk" class="decoration"><img class="" src="assets/mail-footer.svg" />
+                  <span class="pl-2 word mobile-smaller">info@acornconsultants.co.uk</span>
+                </a>
+              </li>
+            </ul></div>
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <!-- Content -->
+            <p class="word">
+              Acorn Holdings (UK) Ltd<br>
+              Company No. 07877641<br>
+              VAT No. 170 4029 38<br>
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
       </div>
-      <!-- /.container -->
+      <!-- Footer Links -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3 word">© 2019 Copyright:
+        <a class="decoration word" target="_blank" rel="noopener noreferrer" href="https://www.inspired-performance-solutions.com/">Inspired Performance Solutions</a>
+      </div>
+      <!-- Copyright -->
     </footer>
+<!-- Footer -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="vendor/js/main.js"></script>
 
   </body>
 

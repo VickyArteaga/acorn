@@ -1,0 +1,61 @@
+/* Hero Responsive */ 
+@media (min-height: 1280px) {
+    #heroimage{
+      min-height: 100px
+    }
+}
+
+@media (min-height: 1160px) {
+    #heroimage{
+      min-height: 960px
+    }
+}
+
+@media (min-height: 980px) {
+    #heroimage{
+      min-height: 800px
+    }
+}
+
+@media (min-height: 768px) {
+    #heroimage{
+      min-height: 650px
+    }
+}
+
+@media (min-height: 640px) {
+    #heroimage{
+      min-height: 500px
+    }
+}
+
+/* Bootstrpa fix largest screns */
+@media (min-width: 1600px) {
+	.container {
+	    max-width: 1440px !important;
+	}
+}
+
+
+
+@media only screen and (max-width:768px)  { 
+		h1 {
+			font-size: 3rem;
+			padding-top: 30vh;
+		}
+		.p-5 {
+			padding: 1rem !important;
+		}
+		.pl-5, .px-5 {
+		    padding-left: 1rem !important;
+		}
+		.pr-5, .px-5 {
+		    padding-right: 1rem !important;
+		}
+		.page-footer .word {
+		    text-align: left;
+		}
+		.mobile-smaller {
+			font-size: 11px !important;
+		}
+	}

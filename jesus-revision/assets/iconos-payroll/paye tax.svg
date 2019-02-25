@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="91px" viewBox="0 0 91 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="payroll" transform="translate(-563.000000, -2253.000000)">
+            <g id="Group-5" transform="translate(564.000000, 2254.000000)">
+                <circle id="Oval-Copy-4" stroke="#D1C2A1" stroke-width="2" cx="44.5" cy="44.5" r="44.5"></circle>
+                <text id="PAYE-TAX" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="3" fill="#555555">
+                    <tspan x="25.9658203" y="42.0800781">PAYE</tspan>
+                    <tspan x="29.4140625" y="57.0800781">TAX</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
